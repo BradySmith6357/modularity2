@@ -31,39 +31,151 @@
 	list-style-type:none;
 }
 .buy {
+	display:inline-block;
 	border:solid;
-	border-color:lime;
-	border-radius:45px;
-	background-color:lime;
-	font-size:30px;
+	border-color:gray;
+	border-radius:10px;
+	background-color:salmon;
+	font-size:25px;
 	text-decoration: none;
 	color:white;
-	padding-height:35px;
-	padding-width:20px;
+	height:50px;
+	width:200px;
 	vertical-align: middle;
+	text-align:center;
+	padding-top:15px;
 }
 .learn {
+	display:inline-block;
 	border:solid;
-	border-color:lime;
-	border-radius:30px;
-	background-color:lime;
+	border-color:gray;
+	border-radius:5px;
+	background-color:salmon;
 	font-size:20px;
 	text-decoration: none;
 	color:white;
-	border-width:20px;
+	width:140px;
+	height:25px;
 	vertical-align: middle;
+	text-align:center;
+	padding-top:5px;
 }
 .ok {
+	display:inline-block;
 	border:solid;
-	border-color:lime;
-	border-radius:15px;
-	background-color:lime;
-	font-size:15px;
+	border-color:gray;
+	border-radius:7px;
+	background-color:salmon;
+	font-size:13px;
 	text-decoration: none;
 	color:white;
-	border-width:10px;
+	height:20px;
+	width:40px;
 	vertical-align: middle;
+	text-align:center;
+	padding-top: 5px;
+	padding-bottom: 1px;
 }
-nav.navigation {
+.buttons {
+	display:inline-block;
 	text-decoration:none;
+	width:150px;
+	color:white;
+	vertical-align:middle;
+	text-align:center;
+	background-color:salmon;
+	border-style: solid;
+	border-color:salmon;
+	border-radius:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.navigation li{
+	position: relative;
+	left: 85px;
+	display:inline-block;
+	list-style-type:none;
+	background-color:salmon;
+	width:100px;
+	height:30px;
+	padding-top:10px;
+
+}
+.navigation {
+	text-decoration: none;
+	border-collapse: collapse;
+	color:white;
+	text-align:center;
+	background-color:salmon;
+	border-radius:10px;
+	text-align: left;
+}
+.pag li{
+	display:inline-block;
+}
+.pag a {
+	color:salmon;
+	padding:10px;
+	border: solid;
+	border-color:salmon;
+	font-weight: bold;
+	text-decoration: none;
+}
+.pag span {
+	padding:10px;
+	color:lightgray;
+	font-weight:bold;
+}
+.user {
+	display:block;
+	float:left;
+	clear:left;
+}
+.user img {
+	margin-bottom: 10px;
+}
+.usersub {
+	float:left;
+	clear:right;
+	margin-bottom: 10px;
+}
+.stream {
+	overflow:auto;
+}
+.text {
+	display:inline-block;
+	float:left;
+	padding-left: 10px;
+}
+time {
+	color: lightgray;
+}
+.main a{
+	text-decoration:none;
+	font-weight:bold;
+}
+.main li{
+	display:inline-block;
+	border:solid thin;
+	border-color:#6982ab;
+	border-radius:5px 5px 0px 0px;
+	height:20px;
+	width:70px;
+	border-bottom:0px;
+	padding-left:20px;
+	padding-top:10px;
+}
+.text2 {
+	border:solid thin;
+	border-color:#6982ab;
+	padding:20px;
+}
+.active {
+	position:relative;
+	border-top:0px;
+	border-bottom:solid;
+	border-bottom:white 5px;
+	background-color:white;
+	top:1px;
+	z-index: 1;
 }
