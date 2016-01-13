@@ -1,0 +1,28 @@
+.center {
+	text-align: center;
+}
+.center img{
+	display:inline-block;
+	padding-right: 25px;
+}
+.center2 img{
+	display:inline-block;
+	float: left;
+	padding-right: 40px;
+}
+.small {
+    display: inline;
+	float:right;
+	padding-left: 75px;
+
+}
+.center2 p{
+	position:absolute;
+	top:410px;
+	left:610px;
+}
+.vertical {
+	vertical-align: middle;
+	padding-top: 100px;
+	padding-bottom:70px;
+}
