@@ -26,3 +26,44 @@
 	padding-top: 100px;
 	padding-bottom:70px;
 }
+.list li{
+	float:left;
+	list-style-type:none;
+}
+.buy {
+	border:solid;
+	border-color:lime;
+	border-radius:45px;
+	background-color:lime;
+	font-size:30px;
+	text-decoration: none;
+	color:white;
+	padding-height:35px;
+	padding-width:20px;
+	vertical-align: middle;
+}
+.learn {
+	border:solid;
+	border-color:lime;
+	border-radius:30px;
+	background-color:lime;
+	font-size:20px;
+	text-decoration: none;
+	color:white;
+	border-width:20px;
+	vertical-align: middle;
+}
+.ok {
+	border:solid;
+	border-color:lime;
+	border-radius:15px;
+	background-color:lime;
+	font-size:15px;
+	text-decoration: none;
+	color:white;
+	border-width:10px;
+	vertical-align: middle;
+}
+nav.navigation {
+	text-decoration:none;
+}
